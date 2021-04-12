@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-  width: 150px;
+  width: 80px;
   height: auto;
 }
 
@@ -75,6 +75,7 @@ nav:hover {
 }
 .p2 {
   font-size: 0.8em;
+  margin-top: -10px;
 }
 .ico_map {
   width: 15px;
@@ -99,6 +100,7 @@ nav:hover {
   width: 100px;
   font-weight: bold;
   margin-left: -5px;
+  margin: 10px;
 }
 
 /* Filtres */
@@ -106,33 +108,57 @@ nav:hover {
 .Filtres {
   display: flex;
   justify-content: left;
-  justify-content: space-between;
+  margin: 20px;
+}
+.filtre {
+  font-weight: bold;
+  margin-right: 30px;
 }
 .ico_bill {
-  width: 15px;
+  width: 20px;
   align-content: center;
-  background-color: #f2f2f2;
-  color: black;
+  color: #0065fc;
   border-radius: 10px 10px 10px 10px;
+  margin-right: 10px;
+}
+.economique {
+  font-weight: bold;
+  border: #f2f2f2 2px solid;
+  margin-right: 30px;
 }
 .ico_family {
   width: 15px;
   align-content: center;
-  background-color: #f2f2f2;
-  color: black;
   border-radius: 10px 10px 10px 10px;
+  margin-right: 10px;
+  color: #0065fc;
+}
+.familial {
+  font-weight: bold;
+  margin-right: 30px;
+  border: #f2f2f2 2px solid;
 }
 .ico_love {
-  width: 15px;
+  width: 20px;
   align-content: center;
-  background-color: #f2f2f2;
-  color: black;
   border-radius: 10px 10px 10px 10px;
+  margin-right: 10px;
+  color: #0065fc;
+}
+.romantique {
+  font-weight: bold;
+  margin-right: 30px;
+  border: #f2f2f2 2px solid;
 }
 .ico_pet {
-  width: 15px;
+  width: 20px;
   align-content: center;
-  background-color: #f2f2f2;
-  color: black;
   border-radius: 10px 10px 10px 10px;
+  margin-right: 10px;
+  color: #0065fc;
+}
+.animaux {
+  font-weight: bold;
+  margin-right: 30px;
+  border: #f2f2f2 2px solid;
 }
