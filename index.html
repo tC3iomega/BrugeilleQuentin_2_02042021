@@ -1,60 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Reservia</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href:"https://fonts.google.com/specimen/Raleway">
+    <title>Reservia</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="bloc_page">
-      <header>
+    <div id="main">
+      <!-- Header -->
+      <header class="flex">
         <div class="logo">
           <a href="index.html"
-            ><img src="images/logo/Reservia@3x.png" alt="logo"
+            ><img src="images/logo/Reservia@3x.png" alt="Reservia"
           /></a>
         </div>
 
-        <nav>
-          <ul>
-            <li>
-              <div class="hebergement">
-                <a href="#hebergements">Hébergements</a>
-              </div>
-            </li>
-            <li>
-              <div class="activites"><a href="#activites">Activités</a></div>
-            </li>
-            <li>
-              <div class="login"><a href="login">S'inscrire</a></div>
-            </li>
+        <!-- Navigation -->
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#hotelsAnchor">Hébergements</a></li>
+            <li><a href="activitesAnchor">Activités</a></li>
           </ul>
         </nav>
+        <a href="" class="signUp">S'inscrire</a>
       </header>
 
-      <section 1>
-        <!-- Section recherche -->
-        <recherche>
-          <p class="p1">Trouvez votre hébergement pour des vacances de rêve</p>
-          <p class="p2">En plein centre ville ou en pleine nature</p>
-          <img
-            src="images/icons/map-marker-alt-solid.svg"
-            alt="Map Marker"
-            class="ico_map"
-          />
-
+        <!-- Search -->
+        <div class="search">
+          <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+          <p>En plein centre ville ou en pleine nature</p>
+          <form class="searchBar flex" action="#" method="GET">
+            <div class="containerMarker flex">
+              <i class="fas fa-map-marker-alt"></i>
+          </div>
           <input
             type="search"
             class="site-search"
-            name="q"
-            aria-label="Search through site content"
+            placeholder="Marseille, France"
           />
-
           <button class="button">Rechercher</button>
-        </recherche>
+        </div>
       </section>
 
       <section class="Filtres">
