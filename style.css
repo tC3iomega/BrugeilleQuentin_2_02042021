@@ -59,7 +59,7 @@ nav a {
   padding: 40px 30px 0;
 }
 
-nav a:hover {
+nav li:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
 }
