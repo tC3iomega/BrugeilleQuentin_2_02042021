@@ -110,7 +110,7 @@ nav li:hover {
 }
 
 .searchInput::placeholder {
-  color: #c2c2c2;
+  color: black;
 }
 
 .searchButton {
