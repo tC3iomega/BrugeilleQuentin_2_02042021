@@ -106,11 +106,7 @@ nav li:hover {
   padding: 0 0 0 15px;
   font-size: 1.1rem;
   font-weight: 600;
-  width: 230px;
-}
-
-.searchInput::placeholder {
-  color: black;
+  width: 130px;
 }
 
 .searchButton {
