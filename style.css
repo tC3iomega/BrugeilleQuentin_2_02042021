@@ -126,6 +126,13 @@ nav li:hover {
   flex-shrink: 0;
 }
 
+input::placeholder {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
 /* Filters */
 
 .textFilter {
