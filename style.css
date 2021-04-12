@@ -1,4 +1,4 @@
-/* Définition des polices personnalisées */
+/* Font */
 
 @font-face {
   font-family: "ralewaythin";
@@ -8,157 +8,37 @@
   font-style: normal;
 }
 
-/* Élements principaux de la page */
+/* General */
 
 body {
-  font-family: "ralewaythin", Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "ralewaythin", sans-serif;
 }
 
-#bloc_page {
-  width: 95%;
-  margin: auto;
+#main {
+  margin: 0 50px 50px;
 }
 
-/* Header */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-.logo {
-  display: flex;
-  justify-content: row;
-  align-items: baseline;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.logo img {
-  width: 80px;
-  height: auto;
-}
-
-/* Navigation */
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: flex-end;
-}
-nav li {
-  margin-right: 50px;
-}
-nav a {
-  display: block;
+a {
   text-decoration: none;
-  font-size: 1.3em;
-  color: black;
-  padding-bottom: 3px;
-  border-bottom: 2px solid transparent;
-}
-nav a:hover {
-  color: #0065fc;
-  border-top: 2px solid;
-}
-.login a {
-  font-weight: bold;
-  color: #0065fc;
-}
-nav:hover {
-  color: #0065fc;
+  color: inherit;
 }
 
-/* Recherche */
-
-.p1 {
-  font-weight: bold;
-  font-size: 1.1em;
-}
-.p2 {
-  font-size: 0.8em;
-  margin-top: -10px;
-}
-.ico_map {
-  width: 15px;
-  align-content: center;
-  background-color: #f2f2f2;
-  color: black;
-  border-radius: 10px 0 0 10px;
-}
-.site-search {
-  font-weight: bold;
-  border: 1px solid;
-  border-color: #f2f2f2;
-  height: 40px;
-  width: 200px;
-}
-.button {
-  color: white;
-  background-color: #0065fc;
-  border: none;
-  border-radius: 0 10px 10px 0;
-  height: 40px;
-  width: 100px;
-  font-weight: bold;
-  margin-left: -5px;
-  margin: 10px;
+h2 {
+  font-weight: 700;
 }
 
-/* Filtres */
-
-.Filtres {
+.flex {
   display: flex;
-  justify-content: left;
-  margin: 20px;
 }
-.filtre {
-  font-weight: bold;
-  margin-right: 30px;
-}
-.ico_bill {
-  width: 20px;
-  align-content: center;
-  color: #0065fc;
-  border-radius: 10px 10px 10px 10px;
-  margin-right: 10px;
-}
-.economique {
-  font-weight: bold;
-  border: #f2f2f2 2px solid;
-  margin-right: 30px;
-}
-.ico_family {
-  width: 15px;
-  align-content: center;
-  border-radius: 10px 10px 10px 10px;
-  margin-right: 10px;
-  color: #0065fc;
-}
-.familial {
-  font-weight: bold;
-  margin-right: 30px;
-  border: #f2f2f2 2px solid;
-}
-.ico_love {
-  width: 20px;
-  align-content: center;
-  border-radius: 10px 10px 10px 10px;
-  margin-right: 10px;
-  color: #0065fc;
-}
-.romantique {
-  font-weight: bold;
-  margin-right: 30px;
-  border: #f2f2f2 2px solid;
-}
-.ico_pet {
-  width: 20px;
-  align-content: center;
-  border-radius: 10px 10px 10px 10px;
-  margin-right: 10px;
-  color: #0065fc;
-}
-.animaux {
-  font-weight: bold;
-  margin-right: 30px;
-  border: #f2f2f2 2px solid;
+
+.euros {
+  font-weight: 600;
 }
