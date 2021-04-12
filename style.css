@@ -1,103 +1,138 @@
 /* Définition des polices personnalisées */
 
 @font-face {
-    font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "ralewaythin";
+  src: url("raleway-variablefont_wght-webfont.woff2") format("woff2"),
+    url("raleway-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Élements principaux de la page */
 
-body{
-    font-family: 'ralewaythin', Arial, sans-serif;
+body {
+  font-family: "ralewaythin", Arial, sans-serif;
 }
 
-#bloc_page{
-    width: 95%;
-    margin: auto;
+#bloc_page {
+  width: 95%;
+  margin: auto;
 }
 
 /* Header */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.logo{
-    display: flex;
-    justify-content: row;
-    align-items: baseline;
+.logo {
+  display: flex;
+  justify-content: row;
+  align-items: baseline;
 }
 
-#logo img{
-    width: 150px;
-    height: auto;
+.logo img {
+  width: 150px;
+  height: auto;
 }
 
 /* Navigation */
 
-nav ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
 }
-nav li{
-    margin-right: 50px;
+nav li {
+  margin-right: 50px;
 }
-nav a{
-    display: block;
-    text-decoration: none;
-    font-size: 1.3em;
-    color:black;
-    padding-bottom: 3px;
-    border-bottom: 2px solid transparent;
+nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: black;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
 }
-nav a:hover{
-    color: #0065FC;
-    border-top: 2px solid;
+nav a:hover {
+  color: #0065fc;
+  border-top: 2px solid;
 }
-#login a{
-    font-weight: bold;
-    color: #0065FC;
+.login a {
+  font-weight: bold;
+  color: #0065fc;
 }
-nav:hover{
-    color: #0065FC
+nav:hover {
+  color: #0065fc;
 }
 
 /* Recherche */
 
-#p1{
-    font-weight: bold;
-    font-size: 1.1em;
+.p1 {
+  font-weight: bold;
+  font-size: 1.1em;
 }
-#p2{
-    font-size: 0.8em;
+.p2 {
+  font-size: 0.8em;
 }
-.ico_map{
-    width: 15px;
-    align-content: center;
-    background-color: #f2f2f2;
-    color: black;
-    border-radius: 10px 0 0 10px;
+.ico_map {
+  width: 15px;
+  align-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px 0 0 10px;
 }
-#site-search{
-    font-weight: bold;
-    border: 1px solid;
-    border-color: #f2f2f2;
-    height: 40px;
-    width: 200px;
+.site-search {
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  height: 40px;
+  width: 200px;
 }
-#button{
-    color:white;
-    background-color: #0065FC;
-    border:none;
-    border-radius: 0 10px 10px 0;
-    height: 40px;
-    width: 100px;
-    font-weight: bold;
-    margin-left: -5px;
+.button {
+  color: white;
+  background-color: #0065fc;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+/* Filtres */
+
+.Filtres {
+  display: flex;
+  justify-content: left;
+  justify-content: space-between;
+}
+.ico_bill {
+  width: 15px;
+  align-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+}
+.ico_family {
+  width: 15px;
+  align-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+}
+.ico_love {
+  width: 15px;
+  align-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+}
+.ico_pet {
+  width: 15px;
+  align-content: center;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
 }
