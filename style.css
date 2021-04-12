@@ -158,8 +158,8 @@ input::placeholder {
 
 .filter:hover {
   cursor: pointer;
-  border-color: #0065fc;
   color: #0065fc;
+  background-color: #deebff;
 }
 
 .filterList {
