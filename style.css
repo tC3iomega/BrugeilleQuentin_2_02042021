@@ -101,12 +101,8 @@ nav li:hover {
   font-size: 1.2rem;
 }
 
-.searchInput {
-  border: 1px solid #f2f2f2;
-  padding: 0 0 0 15px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  width: 200px;
+input {
+  border: 2px solid #f2f2f2;
 }
 
 .searchButton {
