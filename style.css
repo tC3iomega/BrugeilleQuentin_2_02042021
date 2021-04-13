@@ -251,6 +251,10 @@ input::placeholder {
   background-color: white;
 }
 
+.hotelFrame:hover {
+  transform: scale(1.1);
+}
+
 .hotelDescription p {
   margin: 0px;
 }
@@ -315,6 +319,10 @@ input::placeholder {
   width: 40%;
   height: 100%;
   object-fit: cover;
+}
+
+.popularFrame:hover {
+  transform: scale(1.1);
 }
 
 .popularDescription {
