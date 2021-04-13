@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-  margin: 0px 300px;
+  margin: 0px 250px;
 }
 
 ul {
@@ -215,7 +215,7 @@ input::placeholder {
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 40px;
-  flex: 2;
+  flex: 2.5;
 }
 
 .hotels h2 {
@@ -246,6 +246,10 @@ input::placeholder {
   object-fit: cover;
 }
 
+.hotelFrame:hover {
+  box-shadow: 0 5px 5px #666666;
+}
+
 .hotelDescription {
   flex-direction: column;
   justify-content: space-around;
@@ -253,10 +257,6 @@ input::placeholder {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
-}
-
-.hotelFrame:hover {
-  transform: scale(1.1);
 }
 
 .hotelDescription p {
@@ -283,6 +283,10 @@ input::placeholder {
 .showMore {
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.showMore:hover {
+  color: #0065fc;
 }
 
 /* Popular */
@@ -326,7 +330,7 @@ input::placeholder {
 }
 
 .popularFrame:hover {
-  transform: scale(1.1);
+  box-shadow: 0 5px 5px #666666;
 }
 
 .popularDescription {
