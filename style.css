@@ -247,7 +247,7 @@ input::placeholder {
 }
 
 .hotelFrame:hover {
-  box-shadow: 0 5px 5px #666666;
+  box-shadow: 0 5px 5px #868686;
 }
 
 .hotelDescription {
@@ -330,7 +330,7 @@ input::placeholder {
 }
 
 .popularFrame:hover {
-  box-shadow: 0 5px 5px #666666;
+  box-shadow: 0 5px 5px #868686;
 }
 
 .popularDescription {
