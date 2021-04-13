@@ -17,7 +17,7 @@ body {
 }
 
 #main {
-  margin: 0 50px 50px;
+  margin: 10px 300px;
 }
 
 ul {
@@ -170,12 +170,12 @@ input::placeholder {
   height: 50px;
   border-radius: 50%;
   background-color: #deebff;
-  color: #0065fc;
 }
 
 .iconFilter i {
   padding-left: 15px;
   padding-top: 15px;
+  color: #0065fc;
 }
 
 .iconInfo {
@@ -190,4 +190,13 @@ input::placeholder {
   margin: auto;
   font-size: 0.9rem;
   color: #0065fc;
+}
+
+/* Popular */
+
+.hotels {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 40px;
+  flex: 2;
 }
