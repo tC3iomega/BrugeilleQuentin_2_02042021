@@ -1,23 +1,17 @@
 /* Font */
 
-@font-face {
-  font-family: "ralewaythin";
-  src: url("raleway-variablefont_wght-webfont.woff2") format("woff2"),
-    url("raleway-variablefont_wght-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
 /* General */
 
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "ralewaythin", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #main {
-  margin: 0px 50px;
+  margin: 0px 300px;
 }
 
 ul {
@@ -57,6 +51,7 @@ header {
 
 nav li {
   padding-top: 40px;
+  border-top: 2px solid transparent;
 }
 
 nav a {
@@ -192,17 +187,22 @@ input::placeholder {
 }
 
 .iconInfo {
-  height: 20px;
-  width: 20px;
-  border: 1px solide #f2f2f2;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #f2f2f2;
   border-radius: 1rem;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .iconInfo i {
   margin: auto;
   font-size: 0.9rem;
   color: #0065fc;
+}
+
+.containerInfo {
+  align-items: baseline;
 }
 
 /* Hotels */
