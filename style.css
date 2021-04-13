@@ -118,6 +118,10 @@ input {
   flex-shrink: 0;
 }
 
+.searchButton:hover {
+  background-color: #3b89ff;
+}
+
 input::placeholder {
   color: black;
   font-size: 15px;
