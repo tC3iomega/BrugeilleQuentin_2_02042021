@@ -17,7 +17,7 @@ body {
 }
 
 #main {
-  margin: 0px 300px;
+  margin: 0px 50px;
 }
 
 ul {
@@ -96,7 +96,7 @@ nav li:hover {
 .containerMarker {
   background-color: #f2f2f2;
   border-radius: 15px 0 0 15px;
-  width: 50px;
+  width: 70px;
   flex-shrink: 0;
 }
 
@@ -126,7 +126,7 @@ input {
 input::placeholder {
   color: black;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 600;
   padding-left: 10px;
 }
 
@@ -141,6 +141,7 @@ input::placeholder {
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 30px;
+  padding-left: 10px;
 }
 
 .filter {
@@ -148,7 +149,7 @@ input::placeholder {
   height: 46px;
   border: 2px solid #f2f2f2;
   border-left: none;
-  margin-left: 20px;
+  margin-left: 30px;
   padding-right: 20px;
   border-radius: 25px;
 }
@@ -178,7 +179,7 @@ input::placeholder {
 
 .iconFilter i {
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 16px;
   color: #0065fc;
 }
 
