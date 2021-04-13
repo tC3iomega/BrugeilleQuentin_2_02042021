@@ -112,7 +112,7 @@ input {
   padding: 0;
   border-radius: 0 15px 15px 0;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.1rem;
   cursor: pointer;
   flex-shrink: 0;
@@ -214,7 +214,7 @@ input::placeholder {
   flex: 2;
 }
 
-.hotels > h2 {
+.hotels h2 {
   margin: 0;
 }
 
