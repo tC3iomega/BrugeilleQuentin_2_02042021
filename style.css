@@ -343,3 +343,10 @@ input::placeholder {
   margin-top: 8px;
   margin-bottom: 0;
 }
+
+.Activities {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  flex: 2;
+}
