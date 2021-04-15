@@ -112,6 +112,10 @@ input::placeholder {
   padding-left: 10px;
 }
 
+input:hover {
+  background-color: #deebff;
+}
+
 .searchButton {
   width: 130px;
   background-color: #0065fc;
@@ -246,7 +250,7 @@ input::placeholder {
 }
 
 .hotelFrame:hover {
-  box-shadow: 0 0 15px #868686;
+  box-shadow: 0 0 20px #0065fc;
 }
 
 .hotelDescription {
@@ -334,7 +338,7 @@ input::placeholder {
 }
 
 .popularFrame:hover {
-  box-shadow: 0 0 15px #868686;
+  box-shadow: 0 0 20px #0065fc;
 }
 
 .popularDescription {
@@ -411,7 +415,7 @@ input::placeholder {
 .box3:hover,
 .box4:hover,
 .box5:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
   cursor: pointer;
 }
 
