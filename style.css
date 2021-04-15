@@ -415,8 +415,9 @@ input:hover {
 .box3:hover,
 .box4:hover,
 .box5:hover {
-  transform: scale(1.01);
   cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #3b3b3b;
 }
 
 .activityFrame img {
