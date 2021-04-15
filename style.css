@@ -368,74 +368,76 @@ input::placeholder {
   font-weight: 700;
 }
 
-.flex-activity {
-  display: flex;
-}
-
-.ligne-activ {
+.basicColumn {
   display: flex;
   width: 50%;
 }
 
-.first-column {
+.firstColumn {
   width: 50%;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.second-column {
-  width: 50%;
-  margin-left: 2em;
+.firstColumn .box2 {
+  margin-bottom: 30px;
 }
 
-.bigbox {
+.secondColumn {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.secondColumn .box4 {
+  margin-bottom: 30px;
+}
+
+.box1 {
   width: 50%;
 }
 
-.bigbox:hover {
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  box-shadow: 4px 4px 8px #c1c1c1;
+  border-radius: 15px;
+  padding-bottom: 0.1em;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover {
   transform: scale(1.02);
 }
 
-.box-activ1:hover {
-  transform: scale(1.02);
-}
-
-.box-activ2 :hover {
-  transform: scale(1.02);
-}
-
-.flex-activity img {
+.activityFrame img {
   width: 100%;
   height: 450px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
-.flex-activity .box-activ1 img {
+.activityFrame .box2 img {
   height: 220px;
 }
 
-.flex-activity .box-activ2 img {
+.activityFrame .box3 img {
   height: 140px;
 }
 
-.bigbox,
-.box-activ1,
-.box-activ2 {
-  box-shadow: 4px 4px 8px rgb(190, 189, 189);
-  border-radius: 15px;
-  padding-bottom: 0.5em;
+.activityFrame .box4 img {
+  height: 140px;
 }
 
-.first-column .box-activ1 {
-  margin-bottom: 2em;
+.activityFrame .box5 img {
+  height: 140px;
 }
 
-.second-column .box-activ1 {
-  margin-top: 2em;
-}
-
-.flex-activity h3 {
+.activityFrame h3 {
   background-color: white;
   padding-left: 10px;
   font-size: 1.1rem;
