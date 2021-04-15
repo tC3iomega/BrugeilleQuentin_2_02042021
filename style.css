@@ -417,25 +417,22 @@ input::placeholder {
 
 .activityFrame img {
   width: 100%;
-  height: 450px;
+  height: 400px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .activityFrame .box2 img {
-  height: 220px;
+  height: 195px;
 }
 
 .activityFrame .box3 img {
-  height: 140px;
+  height: 115px;
 }
 
-.activityFrame .box4 img {
-  height: 180px;
-}
-
+.activityFrame .box4 img,
 .activityFrame .box5 img {
-  height: 180px;
+  height: 155px;
 }
 
 .activityFrame h3 {
