@@ -412,6 +412,7 @@ input::placeholder {
 .box4:hover,
 .box5:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }
 
 .activityFrame img {
@@ -430,11 +431,11 @@ input::placeholder {
 }
 
 .activityFrame .box4 img {
-  height: 140px;
+  height: 180px;
 }
 
 .activityFrame .box5 img {
-  height: 140px;
+  height: 180px;
 }
 
 .activityFrame h3 {
