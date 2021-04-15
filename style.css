@@ -356,55 +356,86 @@ input::placeholder {
   margin-bottom: 0;
 }
 
-/* Activites */
+/* Activities */
 
-.activities {
-  padding-top: 30px;
-  padding-bottom: 70px;
+.activity {
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-.activitiesTab {
-  display: grid;
-  grid-template: repeat(12, 1fr) / repeat(4, 1fr);
-  gap: 37.5px;
-  height: 450px;
-  grid-auto-flow: column;
+.activity h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-.row12 {
-  grid-row-end: span 13;
+.flex-activity {
+  display: flex;
 }
 
-.row6 {
-  grid-row-end: span 7;
+.ligne-activ {
+  display: flex;
+  width: 50%;
 }
 
-.row5 {
-  grid-row-end: span 6;
+.first-column {
+  width: 50%;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.activityFrame {
-  display: grid;
-  grid-template-rows: 1fr 50px;
-  height: 100%;
-  box-sizing: content-box;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 0 5px #c1c1c1;
+.second-column {
+  width: 50%;
+  margin-left: 2em;
 }
 
-.activityFrame:hover {
+.bigbox {
+  width: 50%;
+}
+
+.bigbox:hover {
   transform: scale(1.02);
 }
 
-.activityFrame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.box-activ1:hover {
+  transform: scale(1.02);
 }
 
-.activityDescription {
-  align-self: center;
+.box-activ2 :hover {
+  transform: scale(1.02);
+}
+
+.flex-activity img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.flex-activity .box-activ1 img {
+  height: 220px;
+}
+
+.flex-activity .box-activ2 img {
+  height: 140px;
+}
+
+.bigbox,
+.box-activ1,
+.box-activ2 {
+  box-shadow: 4px 4px 8px rgb(190, 189, 189);
+  border-radius: 15px;
+  padding-bottom: 0.5em;
+}
+
+.first-column .box-activ1 {
+  margin-bottom: 2em;
+}
+
+.second-column .box-activ1 {
+  margin-top: 2em;
+}
+
+.flex-activity h3 {
   background-color: white;
   padding-left: 10px;
   font-size: 1.1rem;
