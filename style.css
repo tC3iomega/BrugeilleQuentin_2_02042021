@@ -129,6 +129,14 @@ input:hover {
   flex-shrink: 0;
 }
 
+.searchButton i {
+  color: transparent;
+}
+
+.searchButton span {
+  padding-left: 10px;
+}
+
 .searchButton:hover {
   background-color: #3b89ff;
 }
@@ -478,5 +486,343 @@ footer a:hover {
 
   .activityDescription {
     font-size: 1rem;
+  }
+}
+
+/* Tablet version */
+@media only screen and (max-width: 1024px) {
+  #main {
+    margin: 0 50px;
+  }
+
+  /* Search - Tablet */
+  .filters {
+    flex-direction: column;
+  }
+
+  .textFilter {
+    align-self: auto;
+    margin-bottom: 15px;
+  }
+
+  .filter {
+    margin: 0 1rem 1rem 0;
+  }
+
+  /* Popular - Tablet */
+
+  .popular {
+    margin: 0 0 20px;
+  }
+
+  .popularFrame {
+    height: 180px;
+  }
+
+  .popularDescription .hotelName {
+    font-size: 1.1rem;
+  }
+
+  .popularDescription p {
+    font-size: 1.1rem;
+  }
+
+  .popularDescription .fa-star {
+    font-size: 1rem;
+  }
+
+  /* Hotels - Tablet */
+
+  .hotels {
+    order: 2;
+  }
+
+  .containerHotels {
+    flex-direction: column;
+  }
+
+  /* Activities - Tablet */
+
+  .activity {
+    height: auto;
+  }
+
+  .activity h3 {
+    font-size: 1rem;
+  }
+
+  /* Footer - Tablet */
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer div {
+    padding: 10px;
+  }
+}
+
+/* Mobile version */
+@media only screen and (max-width: 600px) {
+  /* General */
+
+  #main {
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Header - Mobile */
+
+  header {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .signUp {
+    align-self: flex-end;
+    padding: 0;
+    margin-right: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  nav {
+    order: 3;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  nav li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  nav li a {
+    padding: inherit;
+  }
+
+  nav li:hover {
+    border-top: none;
+  }
+
+  nav li:hover {
+    border-color: #0065fc;
+  }
+
+  /* Search - Mobile */
+
+  .search {
+    margin: 30px 20px;
+  }
+
+  .searchInput {
+    flex: 1;
+  }
+
+  .searchBar {
+    margin: 35px 0 30px;
+  }
+
+  .searchButton {
+    position: relative;
+    width: 50px;
+    border-radius: 0 15px 15px 0;
+    left: -20px;
+  }
+
+  .searchButton span {
+    display: none;
+  }
+
+  .searchButton i {
+    display: inline-block;
+    color: white;
+  }
+
+  .filters {
+    margin-bottom: 12px;
+  }
+
+  /* Popular - Mobile */
+
+  .popular {
+    border-radius: 15px;
+    padding: 40px 20px 30px;
+    margin-bottom: 40px;
+  }
+
+  .popularFrame {
+    height: 145px;
+    margin-bottom: 10px;
+  }
+
+  .popularIcon i {
+    font-size: 1.4rem;
+  }
+
+  .hotelName {
+    font-size: 1rem !important;
+  }
+
+  .popularDescription p {
+    font-size: 0.9rem;
+  }
+
+  .popularDescription {
+    padding: 15px 10px 10px 20px;
+  }
+
+  .fa-star {
+    font-size: 0.8rem !important;
+    letter-spacing: 1px;
+  }
+
+  /* Hotels - Mobile */
+
+  .hotels h2 {
+    padding-top: 40px;
+  }
+
+  .hotelFrame {
+    height: 200px;
+  }
+
+  .hotels {
+    padding: 0 20px;
+  }
+
+  .hotelsTab {
+    grid-template: repeat(6, 1fr) / 1fr;
+    gap: 15px;
+  }
+
+  .hotelFrame img {
+    height: 116px;
+  }
+
+  .hotelDescription p {
+    font-size: 0.9rem;
+  }
+
+  .showMore {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding-left: 35%;
+  }
+
+  /* Activities - Mobile */
+
+  .activity {
+    margin: 0 10px;
+    padding-top: 10px;
+  }
+
+  .activity h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+
+  .basicColumn {
+    width: 100%;
+  }
+
+  .box1 {
+    margin-top: 20px;
+  }
+
+  .firstColumn,
+  .secondColumn {
+    width: 50%;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 1%;
+    margin-top: 20px;
+  }
+
+  .firstColumn .box2 {
+    margin-bottom: 10px;
+  }
+
+  .secondColumn .box4 {
+    margin-bottom: 10px;
+  }
+
+  .box1 {
+    width: 50%;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    box-shadow: 4px 4px 8px #c1c1c1;
+    border-radius: 15px;
+    padding-bottom: 0.1em;
+  }
+
+  .activityFrame {
+    flex-direction: column;
+  }
+
+  .activityFrame img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .activityFrame .box2 img {
+    height: 97.5px;
+  }
+
+  .activityFrame .box3 img {
+    height: 57.5px;
+  }
+
+  .activityFrame .box4 img,
+  .activityFrame .box5 img {
+    height: 77.5px;
+  }
+
+  .activityFrame h3 {
+    background-color: white;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  /* Footer - Mobile */
+
+  footer {
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+
+  footer li {
+    font-size: 0.8rem;
+  }
+
+  footer div {
+    padding: 0;
+  }
+}
+
+/* Galaxy Fold version */
+@media only screen and (max-width: 300px) {
+  input {
+    width: 150px;
   }
 }
