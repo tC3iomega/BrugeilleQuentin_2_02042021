@@ -424,7 +424,7 @@ input:hover {
 .box4:hover,
 .box5:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0 0 10px #3b3b3b;
 }
 
