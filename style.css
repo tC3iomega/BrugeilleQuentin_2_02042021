@@ -700,6 +700,7 @@ footer a:hover {
 
   .hotels {
     padding: 0 20px;
+    background-color: initial;
   }
 
   .hotelsTab {
@@ -717,91 +718,54 @@ footer a:hover {
 
   .showMore {
     font-weight: 700;
-    font-size: 0.9rem;
-    padding-left: 35%;
+    font-size: 1rem;
   }
 
   /* Activities - Mobile */
 
   .activity {
-    margin: 0 10px;
-    padding-top: 10px;
+    margin-top: 2em;
   }
 
   .activity h2 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding-top: 20px;
-  }
-
-  .basicColumn {
-    width: 100%;
-  }
-
-  .box1 {
-    margin-top: 20px;
-  }
-
-  .firstColumn,
-  .secondColumn {
-    width: 50%;
-    height: 200px;
-    margin-left: 20px;
-    margin-right: 1%;
-    margin-top: 20px;
-  }
-
-  .firstColumn .box2 {
-    margin-bottom: 10px;
-  }
-
-  .secondColumn .box4 {
-    margin-bottom: 10px;
-  }
-
-  .box1 {
-    width: 50%;
-  }
-
-  .box1,
-  .box2,
-  .box3,
-  .box4,
-  .box5 {
-    box-shadow: 4px 4px 8px #c1c1c1;
-    border-radius: 15px;
-    padding-bottom: 0.1em;
+    padding-left: 1.5em;
   }
 
   .activityFrame {
     flex-direction: column;
+    align-items: center;
   }
 
-  .activityFrame img {
+  .basicColumn {
+    flex-direction: column;
     width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
+    align-items: center;
+  }
+  .firstColumn,
+  .secondColumn {
+    flex-direction: column;
+    width: 80%;
+    margin: 0px;
   }
 
-  .activityFrame .box2 img {
-    height: 97.5px;
-  }
-
-  .activityFrame .box3 img {
-    height: 57.5px;
-  }
-
+  .activityFrame img,
+  .activityFrame .box2 img,
+  .activityFrame .box3 img,
   .activityFrame .box4 img,
   .activityFrame .box5 img {
-    height: 77.5px;
+    height: 100px;
   }
 
-  .activityFrame h3 {
-    background-color: white;
-    padding-left: 10px;
-    font-size: 0.9rem;
-    font-weight: 700;
+  .box1 {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    width: 100%;
   }
 
   /* Footer - Mobile */
